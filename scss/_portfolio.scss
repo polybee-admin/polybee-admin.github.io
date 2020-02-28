@@ -3,7 +3,7 @@
   position: relative;
   overflow: hidden;
   max-width: 530px;
-  margin: 2rem 2rem 2rem;
+  margin: auto auto 1rem;
   .caption {
     display: flex;
     height: 100%;
@@ -15,7 +15,7 @@
     z-index: 1;
     .caption-content {
       color: $white;
-      margin: 3rem 3rem 3rem;
+      margin: auto 2rem 2rem;
       h2 {
         font-size: 0.8rem;
         text-transform: uppercase;
@@ -35,10 +35,9 @@
       clip-path: inset(0px);
       .caption-content {
         transition: opacity 0.25s;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        margin-bottom: 3rem;
-        margin-top: 3rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem;
       }
     }
     img {
